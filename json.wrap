@@ -1,0 +1,12 @@
+[wrap-file]
+directory = json-3.12.0
+source_url = http://github.com/nlohmann/json/archive/v3.12.0/json-3.12.0.tar.gz
+source_filename = json-3.12.0.tar.gz
+source_hash = 4b92eb0c06d10683f7447ce9406cb97cd4b453be18d7279320f7b2f025c10187
+patch_url = https://github.com/krisvers/nlohmann_json_3.12.0_wrapdb_patch/releases/download/v1.0.0-nlohmann%2Fjson-3.12.0/wrapdb-nlohmann_json-3.12.0-patch.zip
+patch_filename = wrapdb-nlohmann_json-3.12.0-patch.zip
+patch_hash = 9138c49ea5f63c5352707ba3ae68d4b509e076836d5c018d49b594ac3674e3dd
+wrapdb_version = 3.12.0
+
+[provide]
+dependency_names = nlohmann_json
